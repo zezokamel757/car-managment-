@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 // src/car/car.controller.ts
 /* eslint-disable prettier/prettier */
 import {
@@ -23,7 +24,7 @@ import { extname } from 'path';
 export class CarController {
   constructor(private readonly carService: CarService) {}
 
-  // Define the upload route first to prevent conflicts
+  // Define the upload route 
   @Post('upload-images')
   @UseInterceptors(
     FilesInterceptor('images', 10, {

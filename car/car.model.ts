@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 // src/car/car.model.ts
 /* eslint-disable prettier/prettier */
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';

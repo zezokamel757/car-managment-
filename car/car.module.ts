@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 // src/car/car.module.ts
 /* eslint-disable prettier/prettier */
 import { Module } from '@nestjs/common';
